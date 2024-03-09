@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highfield.API", "Highfield.API\Highfield.API.csproj", "{64835B8A-AD25-4FE5-BE3B-41DA2A77F117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highfield.Domain", "Highfield.Domain\Highfield.Domain.csproj", "{6DD49FCB-DD95-4351-80E0-001D48544B40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64835B8A-AD25-4FE5-BE3B-41DA2A77F117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64835B8A-AD25-4FE5-BE3B-41DA2A77F117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64835B8A-AD25-4FE5-BE3B-41DA2A77F117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64835B8A-AD25-4FE5-BE3B-41DA2A77F117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD49FCB-DD95-4351-80E0-001D48544B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD49FCB-DD95-4351-80E0-001D48544B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD49FCB-DD95-4351-80E0-001D48544B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD49FCB-DD95-4351-80E0-001D48544B40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4B3E482-9E5C-4330-9BCB-68512F2EABC0}
+	EndGlobalSection
+EndGlobal
