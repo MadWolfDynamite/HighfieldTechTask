@@ -50,6 +50,8 @@ namespace Highfield.API.Services
                 colour.Count++;
             }
 
+            result.TopColours = result.TopColours.OrderByDescending(c => c.Count).ThenBy(c => c.Colour).ToList();
+
             return result;
         }
     }
