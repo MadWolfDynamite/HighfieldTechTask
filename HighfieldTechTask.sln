@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highfield.API", "Highfield.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highfield.Domain", "Highfield.Domain\Highfield.Domain.csproj", "{6DD49FCB-DD95-4351-80E0-001D48544B40}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "highfield.frontend", "Highfield.Frontend\highfield.frontend.esproj", "{E78A427A-F039-483A-A228-71DEE6AD4692}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{6DD49FCB-DD95-4351-80E0-001D48544B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DD49FCB-DD95-4351-80E0-001D48544B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DD49FCB-DD95-4351-80E0-001D48544B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E78A427A-F039-483A-A228-71DEE6AD4692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78A427A-F039-483A-A228-71DEE6AD4692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78A427A-F039-483A-A228-71DEE6AD4692}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E78A427A-F039-483A-A228-71DEE6AD4692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78A427A-F039-483A-A228-71DEE6AD4692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E78A427A-F039-483A-A228-71DEE6AD4692}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
