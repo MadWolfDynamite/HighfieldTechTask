@@ -4,6 +4,7 @@ import './App.css';
 import axios from 'axios';
 
 import UserTable from './components/UserTable';
+import ColoursTable from './components/ColoursTable';
 
 function App() {
     const [data, setData] = useState(null);
@@ -44,10 +45,19 @@ function App() {
                 </div>
             )}
             {data && (
-                <div>
-                    <h2>User Details</h2>
-                    <UserTable users={data.users} ages={data.ages} />
-                </div>
+                <>
+                    <div>
+                        <h2>User Details</h2>
+                        <UserTable users={data.users} ages={data.ages} />
+                    </div>
+
+                    <hr></hr>
+
+                    <div>
+                        <h2>Top Colours</h2>
+                        <ColoursTable colours={data.topColours} />
+                    </div>
+                </>
             )}
         </>
     );
